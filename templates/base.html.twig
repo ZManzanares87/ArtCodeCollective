@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        {% block stylesheets %}
+        {% endblock %}
+
+        {% block javascripts %}
+        {% endblock %}
+
+
+
+
+
+         {{
+            render(controller(
+                'App\\Controller\\partes\\Head::head_render',
+                { 'max': 3 }
+            ))
+        }}
+
+    </head>
+    <body>
+
+        {{
+            render(controller(
+                'App\\Controller\\partes\\Header::header_render',
+                { 'max': 3 }
+            ))
+        }}
+
+        {% block body %} 
+
+
+
+            <a href="/templates/templatemo_559_zay_shop/index.html.twig">Hola</a>
+ 
+        {% endblock %}
+
+        {{
+            render(controller(
+                'App\\Controller\\partes\\Footer::footer_render',
+                { 'max': 3 }
+            ))
+        }}
+
+
+        <script src="assets/js/jquery-1.11.0.min.js"></script>
+        <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/templatemo.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
