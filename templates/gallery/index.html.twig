@@ -1,20 +1,87 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello GalleryController!{% endblock %}
+{% block title %}Gallery index{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <h1>Gallery</h1>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Content</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+        {% for gallery in galleries %}
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/Users/albertodiazesteban/Desktop/Symfony/ArtCodeCollective Definitivo/ArtCodeCollective/src/Controller/GalleryController.php'|file_link(0) }}">src/Controller/GalleryController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/Users/albertodiazesteban/Desktop/Symfony/ArtCodeCollective Definitivo/ArtCodeCollective/templates/gallery/index.html.twig'|file_link(0) }}">templates/gallery/index.html.twig</a></code></li>
-    </ul>
-</div>
+     <form>
+            <tr>
+                <td>{{ gallery.id }}</td>
+                <td>{{ gallery.Title }}</td>
+                <td>{{ gallery.Content }}</td>             
+               
+                <td>
+                    <a href="{{ path('app_gallery_show', {'id': gallery.id}) }}">show</a>
+                    <a href="{{ path('app_gallery_edit', {'id': gallery.id}) }}">edit</a>
+                </td>
+            </tr>
+        </form>
+
+        {% else %}
+            <tr>
+                <td colspan="4">no records found</td>
+            </tr>
+        {% endfor %}
+  
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_gallery_new') }}">Create new</a>
+
+   {% block section %}
+
+<section id="gallery">
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+        <img src="/assets/img/upload/001.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+ <div class="card-body">
+        <img src="/assets/img/upload/001.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+         <div class="card-body">
+        <img src="/assets/img/upload/001.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+         <div class="card-body">
+        <img src="/assets/img/upload/001.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+         <div class="card-body">
+        <img src="/assets/img/upload/001.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+</section>
 {% endblock %}
+
+{% endblock %}
+
+
