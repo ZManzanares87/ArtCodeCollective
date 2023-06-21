@@ -70,7 +70,7 @@ body, ul, li, p, a, label, input, div {
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
 #templatemo_nav_top * { font-size: .9em !important;}
-#templatemo_main_nav a { color: #212934;}
+#templatemo_main_nav a { color: #060505;}
 #templatemo_main_nav a:hover { color: #d50d1a;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
@@ -78,7 +78,7 @@ body, ul, li, p, a, label, input, div {
 #template-mo-zay-hero-carousel { background: #efefef !important;}
 /* Accordion */
 .templatemo-accordion a { color: #000;}
-.templatemo-accordion a:hover { color: #333d4a;}
+.templatemo-accordion a:hover { color: #060505;}
 /* Shop */
 .shop-top-menu a:hover { color: #d50d1a !important;}
 /* Product */
@@ -153,7 +153,7 @@ body, ul, li, p, a, label, input, div {
   color: #212934;
   transition: .5s;
 }
-#tempaltemo_footer .border-light { border-color: #2d343f !important;}
+#tempaltemo_footer .border-light { border-color: #dcdde1 !important;}
 /*
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
