@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+ 
+  section#gallery{
+display: flex;
+  }
+
+  .btn {
+    background-color: rgb(12, 12, 12);
+  }
