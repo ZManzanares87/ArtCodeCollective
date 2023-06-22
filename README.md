@@ -65,24 +65,24 @@ Alberto<br>
 Product Owner<br>
 <br><br>
 
-<img src="https://github.com/ZManzanares87/ArtCodeCollective/blob/main/imgreadme/alberto.jpg" width="50%" height="50%"><br><br>
+<img src="https://github.com/ZManzanares87/ArtCodeCollective/blob/main/imgreadme/alberto.jpg" width="25%" height="25%"><br><br>
 
 Liliana<br>
 Scrum Manager<br>
 <br><br>
-<img src="https://github.com/ZManzanares87/ArtCodeCollective/blob/main/imgreadme/liliana .png"   width="50%" height="50%"><br><br>
+<img src="https://github.com/ZManzanares87/ArtCodeCollective/blob/main/imgreadme/liliana .png"   width="25%" height="25%"><br><br>
 
 Zori<br>
 Desarrolladora<br>
 <br><br>
 
-<img src="https://github.com/ZManzanares87/ArtCodeCollective/blob/main/imgreadme/zori.png"   width="50%" height="50%"><br><br>
+<img src="https://github.com/ZManzanares87/ArtCodeCollective/blob/main/imgreadme/zori.png"   width="25%" height="25%"><br><br>
 
 Greiskel<br>
 Desarrolladora<br>
 <br><br>
 
-<img src="https://github.com/ZManzanares87/ArtCodeCollective/blob/main/imgreadme/greiskel.png" width="50%" height="50%"><br><br>
+<img src="https://github.com/ZManzanares87/ArtCodeCollective/blob/main/imgreadme/greiskel.png" width="25%" height="25%"`><br><br>
 
 
 ## **Github**
