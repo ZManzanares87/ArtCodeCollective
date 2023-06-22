@@ -1,20 +1,53 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello AboutController!{% endblock %}
+
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/Users/albertodiazesteban/Desktop/Symfony/ArtCodeCollective Definitivo/ArtCodeCollective/src/Controller/AboutController.php'|file_link(0) }}">src/Controller/AboutController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/Users/albertodiazesteban/Desktop/Symfony/ArtCodeCollective Definitivo/ArtCodeCollective/templates/about/index.html.twig'|file_link(0) }}">templates/about/index.html.twig</a></code></li>
-    </ul>
-</div>
+<!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <section class="bg-success py-5">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-md-8 text-white">
+                    <h1>About Us</h1>
+                    <p>
+                        At <b>ArtCodecollective</b>, we believe that art has the power to inspire, provoke, and transcend traditional mediums. Our collective is a haven for artists, coders, and creators alike, where they come together to explore the limitless possibilities of merging artistic expression with cutting-edge technology.
+                    </p>
+                    <p>
+                        ArtCodecollective website features a minimalist and elegant design, focused on highlighting digital artwork. The gallery offers a Home section where a carousel showcases the most outstanding artworks of the moment. Administrators have the ability to access, edit, and modify information from various collections and artists, providing detailed descriptions of the works added to our site.
+                    </p>
+                  
+                </div>
+                <div class="col-md-3">
+                    <img src="./assets/img/banner_img_01.jpg" alt="About Hero" style="width: 450px; height: 450px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Close Banner -->
+
+   
+
+   
+
+
 {% endblock %}

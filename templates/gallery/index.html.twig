@@ -1,20 +1,247 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello GalleryController!{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+ <!-- Start Banner Hero -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/Users/albertodiazesteban/Desktop/Symfony/ArtCodeCollective Definitivo/ArtCodeCollective/src/Controller/GalleryController.php'|file_link(0) }}">src/Controller/GalleryController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/Users/albertodiazesteban/Desktop/Symfony/ArtCodeCollective Definitivo/ArtCodeCollective/templates/gallery/index.html.twig'|file_link(0) }}">templates/gallery/index.html.twig</a></code></li>
-    </ul>
-</div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_01.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_03.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_04.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_05.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_06.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_07.jpg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="3"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="4"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="5"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="6"></li>
+        </ol>
+            
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Featured Arwork -->
+    <section class="bg-light">
+        <div class="container py-5">
+            
+            <div class="row">
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/001.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/002.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/003.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/004.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/005.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/006.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/007.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/008.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/009.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/010.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/011.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/012.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/013.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/014.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/015.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/016.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/017.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/018.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/019.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/020.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="./assets/img/artwork-list/001.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Product -->
+
 {% endblock %}
